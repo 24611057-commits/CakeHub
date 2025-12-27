@@ -3,7 +3,7 @@
     if (!form) return;
 
     const $ = id => document.getElementById(id);
-    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzQDoO_Ej95OGVEXwspOZCofFIXeSB5JWsPrsE91DH5aWlatxMKVGHkyRneHj0sfh8Y/exec";
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxFFzO5tIYASNL3SIG2zFOqpfykF1nRqMH0ar-Ilta0_dQKz2nYTESnik7f0HLkKSpp/exec";
 
     function updateSummary() {
         const jenis = $('jenis_kue')?.value || '-';
